@@ -287,14 +287,13 @@ responsive property media query
     .match-right{
         margin-left: 0;
     }
-    .upcoming-match-section, .award-area{
-        width: 100%;
-    }
     .upcoming-match-container hr{
         width: 80%;
         margin: auto;
     }
-    
+    .copa-logo img{
+        width: 80%;
+    }
     .award{
         flex-direction: column;
         justify-content: center;
@@ -308,7 +307,6 @@ responsive property media query
     .trophy-info p{
         font-size: 14px;
     }
-    
     .footer-img img{
         width: 170px;
         height: 55px;
