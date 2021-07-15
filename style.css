@@ -122,7 +122,7 @@ players
  }
  .match-title-2{
      font-size: 50px;
-     color:#7169df;
+     color:#3DBAFD;
  }
  .match-title-2 span{
      color: #E02C6D;
@@ -275,34 +275,27 @@ responsive property media query
     .player-container, .upcoming-match-container, .award-container{
         width: 90%;
         padding: 50px 16px;
-        margin: auto;
     }
     .players, .upcoming-match{
         grid-template-columns: 1fr;
         grid-column-gap: 0;
     }
+    .player,.match-left,.match-right{
+        margin: auto;
+    }
     .match-title-1, .match-title-2{
         font-size: 24px;
-    }
-    .match-right{
-        margin-left: 0;
     }
     .upcoming-match-container hr{
         width: 80%;
         margin: auto;
     }
-    .copa-logo img{
-        width: 80%;
-    }
     .award{
         flex-direction: column;
-        width: 100%;
         align-items: unset;
-        margin: auto;
     }
     .award-title{
         font-size: 20px;
-        text-align: center;
     }
     .trophy-info hr{
         width: 70%;
