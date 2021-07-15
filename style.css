@@ -275,6 +275,7 @@ responsive property media query
     .player-container, .upcoming-match-container, .award-container{
         width: 90%;
         padding: 50px 16px;
+        margin: auto;
     }
     .players, .upcoming-match{
         grid-template-columns: 1fr;
