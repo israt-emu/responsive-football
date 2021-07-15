@@ -300,6 +300,7 @@ responsive property media query
     }
     .award-title{
         font-size: 20px;
+        text-align: center;
     }
     .trophy-info hr{
         width: 70%;
