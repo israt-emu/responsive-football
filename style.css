@@ -252,6 +252,7 @@ responsive property media query
 @media only screen and (max-width:680px){
     header{
         height: 695px;
+        width: 100%;
     }
     .banner{
         flex-direction: column;
@@ -269,7 +270,7 @@ responsive property media query
         padding-top: 60px;
     }
     .banner-img img{
-        width: 329px;
+        width: 300px;
         height: 259.17px;   
     }
     .player-container, .upcoming-match-container, .award-container{
@@ -285,6 +286,9 @@ responsive property media query
     }
     .match-right{
         margin-left: 0;
+    }
+    .upcoming-match-section, .award-area{
+        width: 100%;
     }
     .upcoming-match-container hr{
         width: 80%;
@@ -304,9 +308,7 @@ responsive property media query
     .trophy-info p{
         font-size: 14px;
     }
-    footer{
-        width: 100%;
-    }
+    
     .footer-img img{
         width: 170px;
         height: 55px;
